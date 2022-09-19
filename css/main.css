@@ -12,12 +12,14 @@
   --cards-border-color:#EEEEEE;
   --hero-gradient: #c4c4c4;
   --icons-color-main: #afb1b8;
+  --primary-font-family: Roboto, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
 }
 
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -118,7 +120,7 @@ button {
 
 .logo-header {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -236,7 +238,6 @@ button {
 }
 
 .hero-title {
-  font-family: Roboto;
   font-style: normal;
   color: var(--white-color);
   font-weight: 900;
@@ -584,7 +585,7 @@ button {
   color: var(--accent-color);
   display: inline-block;
   margin-bottom: 20px;
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
