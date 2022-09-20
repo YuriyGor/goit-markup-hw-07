@@ -1,8 +1,8 @@
-.feature-list {
+.feature {
     display: flex;   
     gap: 30px;
 }
-.icon {
+.feature__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 .feature__item {
     flex-basis: calc((100% - 90px) / 4);
 }
-.feature-title {
+.feature__title {
     color: var(--secondary-text-color);
 
     font-size: 14px;
@@ -22,7 +22,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 } 
-.feature-text {
+.feature__text {
     color: var(--primary-text-color);
 
     font-weight: 400;
