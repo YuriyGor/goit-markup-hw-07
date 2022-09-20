@@ -9,11 +9,11 @@
 .company__item {
     width: 170px;
     height: 92px;
-}
-
-.company__item:not(:last-child) {
+    
+    &:not(:last-child) {
     margin-right: 30px;
-} 
+    } 
+}
 
 .company__link {
     display: flex;
@@ -26,12 +26,12 @@
     border-radius: 4px;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.company__link:hover,
-.company__link:focus {
+    
+    &:hover,
+    &:focus {
     color: var(--accent-color);
     border-color: var(--accent-color);
+    }
 }
 
 .company__logo {
