@@ -276,7 +276,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.feature-list {
+.feature__list {
   display: flex;
   gap: 30px;
 }
