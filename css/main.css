@@ -417,7 +417,7 @@ button {
   fill: currentColor;
 }
 
-.company-list {
+.company__list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -425,16 +425,16 @@ button {
   padding: 0;
 }
 
-.company-item {
+.company__item {
   width: 170px;
   height: 92px;
 }
 
-.company-item:not(:last-child) {
+.company__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.icon-company {
+.company__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -446,13 +446,13 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-company:hover,
-.icon-company:focus {
+.company__link:hover,
+.company__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.logo-company {
+.company__logo {
   fill: currentColor;
 }
 
