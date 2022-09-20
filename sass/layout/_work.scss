@@ -1,15 +1,15 @@
-.work {
+.section-work {
     padding-top: 0;
 }
-.work__list {   
+.work-list {   
     display: flex;
     justify-content: space-between;
 }
 
-.work__item {
+.work-item {
     position: relative;
 }
-.work__text {
+.work-text {
     position: absolute;
     bottom: 0;
     width: 100%;
